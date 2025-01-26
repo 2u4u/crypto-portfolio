@@ -50,15 +50,6 @@ Instead of tracking cryptocurrency assets directly, the application **tracks all
 - **Virtualized lists and tables** are used to enhance performance.
 - Some **code duplication** exists but has been minimized by extracting **reusable components**.
 
-### Future Improvements
-
-If this were a real-world project, the following improvements would be implemented:
-
-- **Unit tests** for utility/helper functions.
-- **End-to-End (E2E) tests** for integration scenarios.
-- **Snapshot tests** (later in development) to track UI changes.
-- **Pre-commit hooks** to enforce linting and test execution.
-
 ## Running the Project
 
 To start the project locally:
