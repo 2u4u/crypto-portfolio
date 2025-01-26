@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Michroma&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@import "tailwindcss";
+
+:root {
+	--cp-text-color: #ffffff;
+	--cp-blue: #3861fb;
+	--cp-red: #d32f2f;
+	--cp-negative: #ea3943;
+	--cp-positive: #16c784;
+	--cp-grey-100: #222531;
+	--cp-grey-200: #323546;
+	--cp-grey-300: #53596a;
+	--cp-grey-400: #646b80;
+	--cp-grey-500: #858ca2;
+	--cp-grey-600: #a1a7bb;
+	--cp-light-grey: #232531;
+	--cp-dark-grey: #0d1421;
+	--cp-bg-color: var(--cp-dark-grey);
+	--cp-card-color: var(--cp-light-grey);
+	--cp-button-primary-color: var(--cp-blue);
+	--cp-divider-color: var(--cp-grey-200);
+	--cp-font-mono: "Space Mono", serif;
+}
+
+html {
+	background-color: var(--cp-bg-color);
+}
+
+body,
+#root,
+html {
+	height: 100%;
+}
+
+@theme {
+	--color-text-color: #ffffff;
+	--color-blue: #3861fb;
+	--color-red: #d32f2f;
+	--color-negative: #ea3943;
+	--color-positive: #16c784;
+	--color-grey-100: #222531;
+	--color-grey-200: #323546;
+	--color-grey-300: #53596a;
+	--color-grey-400: #646b80;
+	--color-grey-500: #858ca2;
+	--color-grey-600: #a1a7bb;
+	--color-light-grey: #232531;
+	--color-dark-grey: #0d1421;
+	--color-bg-color: var(--cp-dark-grey);
+	--color-card-color: var(--cp-light-grey);
+	--color-button-primary-color: var(--cp-blue);
+	--color-divider-color: var(--cp-grey-200);
+	--font-mono: "Montserrat", ui-monospace, SFMono-Regular, Menlo, Monaco,
+		Consolas, "Liberation Mono", "Courier New", monospace;
+}
